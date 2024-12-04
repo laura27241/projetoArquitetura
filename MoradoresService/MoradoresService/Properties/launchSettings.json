@@ -1,0 +1,12 @@
+{
+    "profiles": {
+        "MoradoresService": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "applicationUrl": "http://localhost:59468;https://localhost:59466/"
+        }
+    }
+}

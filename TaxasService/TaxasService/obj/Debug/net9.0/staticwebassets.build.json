@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "biJLxInY5uuAKY3Djwubo1+ahiRU8v0WZP9pR6VEKnY=",
+  "Source": "TaxasService",
+  "BasePath": "_content/TaxasService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

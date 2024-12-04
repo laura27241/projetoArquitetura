@@ -1,0 +1,90 @@
+[
+  {
+    "ContainingType": "TaxasController",
+    "Method": "GetTaxas",
+    "RelativePath": "api/Taxas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TaxasService.Models.Taxa, TaxasService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TaxasController",
+    "Method": "PostTaxa",
+    "RelativePath": "api/Taxas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taxa",
+        "Type": "TaxasService.Models.Taxa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TaxasService.Models.Taxa",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TaxasController",
+    "Method": "UpdateTaxa",
+    "RelativePath": "api/Taxas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "novaTaxa",
+        "Type": "TaxasService.Models.Taxa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaxasController",
+    "Method": "AlterarTaxa",
+    "RelativePath": "api/Taxas/alterar-taxa/{taxaId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taxaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "novaTaxa",
+        "Type": "TaxasService.Models.Taxa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

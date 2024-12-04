@@ -1,0 +1,9 @@
+POST http://localhost:5289/api/moradores
+Content-Type: application/json
+Accept: application/json
+
+{
+    "nome": "Carlos Souza",
+    "residencia": "Rua C, 789",
+    "divida": "200"
+}
