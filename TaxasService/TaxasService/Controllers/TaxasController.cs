@@ -18,7 +18,7 @@ public class TaxasController : ControllerBase
         _context = context;
     }
 
- 
+    // GET: api/Taxas
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Taxa>>> GetTaxas()
     {
@@ -33,7 +33,7 @@ public class TaxasController : ControllerBase
         }
     }
 
-   
+    // POST: api/Taxas
     [HttpPost]
     public async Task<ActionResult<Taxa>> PostTaxa(Taxa taxa)
     {
@@ -50,7 +50,7 @@ public class TaxasController : ControllerBase
         }
     }
 
-   
+    // PUT: api/Taxas/{id}
     [HttpPut("{id}")]
     public async Task<IActionResult> UpdateTaxa(int id, Taxa novaTaxa)
     {
@@ -62,14 +62,15 @@ public class TaxasController : ControllerBase
                 return NotFound("Taxa não encontrada.");
             }
 
-            
-            taxa.Nome = novaTaxa.Nome;
+          
+            taxa.Residencia = novaTaxa.Residencia;
             taxa.Valor = novaTaxa.Valor;
+            taxa.DataVencimento = novaTaxa.DataVencimento;
 
             _context.Entry(taxa).State = EntityState.Modified;
             await _context.SaveChangesAsync();
 
-            return NoContent(); 
+            return NoContent();
         }
         catch (Exception ex)
         {
@@ -77,7 +78,7 @@ public class TaxasController : ControllerBase
         }
     }
 
-   
+    // PUT: api/Taxas/alterar-taxa/{taxaId}
     [HttpPut("alterar-taxa/{taxaId}")]
     public async Task<IActionResult> AlterarTaxa(int taxaId, Taxa novaTaxa)
     {

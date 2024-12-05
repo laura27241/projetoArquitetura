@@ -2,6 +2,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ResidenciasService.Data;
 using ResidenciasService.Models;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Text.Json;
+using System.Threading.Tasks;
+using System;
+using TaxasService.Models;
+using MoradoresService.Models;
 
 [Route("api/[controller]")]
 [ApiController]
@@ -53,7 +60,10 @@ public class ResidenciasController : ControllerBase
             var response = await httpClient.GetAsync("http://localhost:5002/api/Moradores");
             response.EnsureSuccessStatusCode();
 
-            var moradores = await response.Content.ReadAsAsync<IEnumerable<Morador>>();
+            var moradores = JsonSerializer.Deserialize<IEnumerable<Morador>>(
+                await response.Content.ReadAsStringAsync(),
+                new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
             return Ok(moradores);
         }
         catch (Exception ex)
@@ -63,19 +73,16 @@ public class ResidenciasController : ControllerBase
     }
 
     [HttpPut("alterar-taxa")]
-    public async Task<IActionResult> AlterarTaxa(int taxaId, Taxa novaTaxa)
+    public async Task<IActionResult> AlterarTaxa([FromBody] Taxa novaTaxa)
     {
-        using var httpClient = new HttpClient();
         try
         {
-            var response = await httpClient.PutAsJsonAsync($"http://localhost:5000/api/Taxas/{taxaId}", novaTaxa);
-            response.EnsureSuccessStatusCode();
-
-            return Ok("Taxa alterada com sucesso.");
+            return Ok($"Taxa com valor {novaTaxa.Valor} alterada com sucesso.");
         }
         catch (Exception ex)
         {
             return StatusCode(500, $"Erro ao alterar taxa: {ex.Message}");
         }
     }
+
 }

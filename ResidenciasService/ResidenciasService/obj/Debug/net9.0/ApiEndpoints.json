@@ -44,5 +44,31 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "ResidenciasController",
+    "Method": "AlterarTaxa",
+    "RelativePath": "api/Residencias/alterar-taxa",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novaTaxa",
+        "Type": "TaxasService.Models.Taxa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ResidenciasController",
+    "Method": "GetMoradoresFromMoradoresService",
+    "RelativePath": "api/Residencias/moradores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

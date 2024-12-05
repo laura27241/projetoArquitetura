@@ -183,13 +183,17 @@
             "type": "integer",
             "format": "int32"
           },
-          "nome": {
+          "residencia": {
             "type": "string",
             "nullable": true
           },
           "valor": {
-            "type": "number",
-            "format": "double"
+            "type": "string",
+            "nullable": true
+          },
+          "dataVencimento": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

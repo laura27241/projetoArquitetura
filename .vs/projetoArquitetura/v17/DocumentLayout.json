@@ -1,54 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\laura\\OneDrive\\\u00C1rea de Trabalho\\projetoArquitetura\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{BA8238C2-A44F-4490-9A6C-C40D1B3F1DCE}|TaxasService\\TaxasService\\TaxasService.csproj|c:\\users\\laura\\onedrive\\\u00E1rea de trabalho\\projetoarquitetura\\taxasservice\\taxasservice\\models\\taxa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA8238C2-A44F-4490-9A6C-C40D1B3F1DCE}|TaxasService\\TaxasService\\TaxasService.csproj|solutionrelative:taxasservice\\taxasservice\\models\\taxa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA8238C2-A44F-4490-9A6C-C40D1B3F1DCE}|TaxasService\\TaxasService\\TaxasService.csproj|c:\\users\\laura\\onedrive\\\u00E1rea de trabalho\\projetoarquitetura\\taxasservice\\taxasservice\\controllers\\taxascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA8238C2-A44F-4490-9A6C-C40D1B3F1DCE}|TaxasService\\TaxasService\\TaxasService.csproj|solutionrelative:taxasservice\\taxasservice\\controllers\\taxascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Taxa.cs",
-              "DocumentMoniker": "C:\\Users\\laura\\OneDrive\\\u00C1rea de Trabalho\\projetoArquitetura\\TaxasService\\TaxasService\\Models\\Taxa.cs",
-              "RelativeDocumentMoniker": "TaxasService\\TaxasService\\Models\\Taxa.cs",
-              "ToolTip": "C:\\Users\\laura\\OneDrive\\\u00C1rea de Trabalho\\projetoArquitetura\\TaxasService\\TaxasService\\Models\\Taxa.cs",
-              "RelativeToolTip": "TaxasService\\TaxasService\\Models\\Taxa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T01:04:36.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaxasController.cs",
-              "DocumentMoniker": "C:\\Users\\laura\\OneDrive\\\u00C1rea de Trabalho\\projetoArquitetura\\TaxasService\\TaxasService\\Controllers\\TaxasController.cs",
-              "RelativeDocumentMoniker": "TaxasService\\TaxasService\\Controllers\\TaxasController.cs",
-              "ToolTip": "C:\\Users\\laura\\OneDrive\\\u00C1rea de Trabalho\\projetoArquitetura\\TaxasService\\TaxasService\\Controllers\\TaxasController.cs",
-              "RelativeToolTip": "TaxasService\\TaxasService\\Controllers\\TaxasController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T01:04:29.346Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

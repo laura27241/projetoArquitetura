@@ -145,3 +145,4 @@ C:\Users\laura\OneDrive\Área de Trabalho\projetoArquitetura\ResidenciasService\
 C:\Users\laura\OneDrive\Área de Trabalho\projetoArquitetura\ResidenciasService\ResidenciasService\obj\Debug\net9.0\ResidenciasService.pdb
 C:\Users\laura\OneDrive\Área de Trabalho\projetoArquitetura\ResidenciasService\ResidenciasService\obj\Debug\net9.0\ResidenciasService.genruntimeconfig.cache
 C:\Users\laura\OneDrive\Área de Trabalho\projetoArquitetura\ResidenciasService\ResidenciasService\obj\Debug\net9.0\ref\ResidenciasService.dll
+C:\Users\laura\OneDrive\Área de Trabalho\projetoArquitetura\ResidenciasService\ResidenciasService\obj\Debug\net9.0\ResidenciasService.sourcelink.json

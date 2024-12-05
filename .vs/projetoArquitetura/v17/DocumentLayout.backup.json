@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\laura\\OneDrive\\\u00C1rea de Trabalho\\projetoArquitetura\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA8238C2-A44F-4490-9A6C-C40D1B3F1DCE}|TaxasService\\TaxasService\\TaxasService.csproj|c:\\users\\laura\\onedrive\\\u00E1rea de trabalho\\projetoarquitetura\\taxasservice\\taxasservice\\models\\taxa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA8238C2-A44F-4490-9A6C-C40D1B3F1DCE}|TaxasService\\TaxasService\\TaxasService.csproj|solutionrelative:taxasservice\\taxasservice\\models\\taxa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA8238C2-A44F-4490-9A6C-C40D1B3F1DCE}|TaxasService\\TaxasService\\TaxasService.csproj|c:\\users\\laura\\onedrive\\\u00E1rea de trabalho\\projetoarquitetura\\taxasservice\\taxasservice\\migrations\\20241128230806_initial3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8238C2-A44F-4490-9A6C-C40D1B3F1DCE}|TaxasService\\TaxasService\\TaxasService.csproj|solutionrelative:taxasservice\\taxasservice\\migrations\\20241128230806_initial3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA8238C2-A44F-4490-9A6C-C40D1B3F1DCE}|TaxasService\\TaxasService\\TaxasService.csproj|c:\\users\\laura\\onedrive\\\u00E1rea de trabalho\\projetoarquitetura\\taxasservice\\taxasservice\\controllers\\taxascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA8238C2-A44F-4490-9A6C-C40D1B3F1DCE}|TaxasService\\TaxasService\\TaxasService.csproj|solutionrelative:taxasservice\\taxasservice\\controllers\\taxascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D86ECDA-E12C-4F1E-96B4-F921C1117598}|ResidenciasService\\ResidenciasService\\ResidenciasService.csproj|c:\\users\\laura\\onedrive\\\u00E1rea de trabalho\\projetoarquitetura\\residenciasservice\\residenciasservice\\controller\\residenciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D86ECDA-E12C-4F1E-96B4-F921C1117598}|ResidenciasService\\ResidenciasService\\ResidenciasService.csproj|solutionrelative:residenciasservice\\residenciasservice\\controller\\residenciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D86ECDA-E12C-4F1E-96B4-F921C1117598}|ResidenciasService\\ResidenciasService\\ResidenciasService.csproj|c:\\users\\laura\\onedrive\\\u00E1rea de trabalho\\projetoarquitetura\\residenciasservice\\residenciasservice\\models\\residencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D86ECDA-E12C-4F1E-96B4-F921C1117598}|ResidenciasService\\ResidenciasService\\ResidenciasService.csproj|solutionrelative:residenciasservice\\residenciasservice\\models\\residencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Taxa.cs",
-              "DocumentMoniker": "C:\\Users\\laura\\OneDrive\\\u00C1rea de Trabalho\\projetoArquitetura\\TaxasService\\TaxasService\\Models\\Taxa.cs",
-              "RelativeDocumentMoniker": "TaxasService\\TaxasService\\Models\\Taxa.cs",
-              "ToolTip": "C:\\Users\\laura\\OneDrive\\\u00C1rea de Trabalho\\projetoArquitetura\\TaxasService\\TaxasService\\Models\\Taxa.cs",
-              "RelativeToolTip": "TaxasService\\TaxasService\\Models\\Taxa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Title": "20241128230806_initial3.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\OneDrive\\\u00C1rea de Trabalho\\projetoArquitetura\\TaxasService\\TaxasService\\Migrations\\20241128230806_initial3.cs",
+              "RelativeDocumentMoniker": "TaxasService\\TaxasService\\Migrations\\20241128230806_initial3.cs",
+              "ToolTip": "C:\\Users\\laura\\OneDrive\\\u00C1rea de Trabalho\\projetoArquitetura\\TaxasService\\TaxasService\\Migrations\\20241128230806_initial3.cs",
+              "RelativeToolTip": "TaxasService\\TaxasService\\Migrations\\20241128230806_initial3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T01:04:36.28Z",
+              "WhenOpened": "2024-12-05T22:57:52.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Residencia.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\OneDrive\\\u00C1rea de Trabalho\\projetoArquitetura\\ResidenciasService\\ResidenciasService\\Models\\Residencia.cs",
+              "RelativeDocumentMoniker": "ResidenciasService\\ResidenciasService\\Models\\Residencia.cs",
+              "ToolTip": "C:\\Users\\laura\\OneDrive\\\u00C1rea de Trabalho\\projetoArquitetura\\ResidenciasService\\ResidenciasService\\Models\\Residencia.cs",
+              "RelativeToolTip": "ResidenciasService\\ResidenciasService\\Models\\Residencia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T22:40:03.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TaxasController.cs",
-              "DocumentMoniker": "C:\\Users\\laura\\OneDrive\\\u00C1rea de Trabalho\\projetoArquitetura\\TaxasService\\TaxasService\\Controllers\\TaxasController.cs",
-              "RelativeDocumentMoniker": "TaxasService\\TaxasService\\Controllers\\TaxasController.cs",
-              "ToolTip": "C:\\Users\\laura\\OneDrive\\\u00C1rea de Trabalho\\projetoArquitetura\\TaxasService\\TaxasService\\Controllers\\TaxasController.cs",
-              "RelativeToolTip": "TaxasService\\TaxasService\\Controllers\\TaxasController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Title": "ResidenciasController.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\OneDrive\\\u00C1rea de Trabalho\\projetoArquitetura\\ResidenciasService\\ResidenciasService\\Controller\\ResidenciasController.cs",
+              "RelativeDocumentMoniker": "ResidenciasService\\ResidenciasService\\Controller\\ResidenciasController.cs",
+              "ToolTip": "C:\\Users\\laura\\OneDrive\\\u00C1rea de Trabalho\\projetoArquitetura\\ResidenciasService\\ResidenciasService\\Controller\\ResidenciasController.cs",
+              "RelativeToolTip": "ResidenciasService\\ResidenciasService\\Controller\\ResidenciasController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAowFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T01:04:29.346Z",
+              "WhenOpened": "2024-12-05T22:38:10.513Z",
               "EditorCaption": ""
             }
           ]

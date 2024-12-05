@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ResidenciasService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b06c216051ace701cc8950cf049b376e00e3fab1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ResidenciasService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ResidenciasService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

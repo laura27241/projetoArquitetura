@@ -145,3 +145,4 @@ C:\Users\laura\OneDrive\Área de Trabalho\projetoArquitetura\TaxasService\TaxasS
 C:\Users\laura\OneDrive\Área de Trabalho\projetoArquitetura\TaxasService\TaxasService\obj\Debug\net9.0\TaxasService.pdb
 C:\Users\laura\OneDrive\Área de Trabalho\projetoArquitetura\TaxasService\TaxasService\obj\Debug\net9.0\TaxasService.genruntimeconfig.cache
 C:\Users\laura\OneDrive\Área de Trabalho\projetoArquitetura\TaxasService\TaxasService\obj\Debug\net9.0\ref\TaxasService.dll
+C:\Users\laura\OneDrive\Área de Trabalho\projetoArquitetura\TaxasService\TaxasService\obj\Debug\net9.0\TaxasService.sourcelink.json

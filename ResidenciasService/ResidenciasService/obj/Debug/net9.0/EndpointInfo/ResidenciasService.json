@@ -88,11 +88,57 @@
           }
         }
       }
+    },
+    "/api/Residencias/moradores": {
+      "get": {
+        "tags": [
+          "Residencias"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Residencias/alterar-taxa": {
+      "put": {
+        "tags": [
+          "Residencias"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Taxa"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Taxa"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Taxa"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
       "Residencia": {
+        "required": [
+          "numero"
+        ],
         "type": "object",
         "properties": {
           "id": {
@@ -105,6 +151,28 @@
           },
           "ativa": {
             "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Taxa": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "residencia": {
+            "type": "string",
+            "nullable": true
+          },
+          "valor": {
+            "type": "string",
+            "nullable": true
+          },
+          "dataVencimento": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
